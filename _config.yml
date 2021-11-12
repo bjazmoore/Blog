@@ -12,7 +12,7 @@ plugins:
   
 paginate_path: "/page:num/"
 
-paginate: 5
+paginate: 2
 
 main_toc:
   - title: Home
