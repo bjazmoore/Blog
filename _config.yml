@@ -3,8 +3,8 @@ title         : "Bajawa"
 #title_right   : "space" # default: ""
 description   : "A minimalist, simple, and clean Jekyll theme for blogger and writer."
 keywords      : "Jekyll, theme, free, download, SEO, blog, web, minimalist, simple, clean, bajawa theme"
-url           : https://kulacino.github.io/bajawa # site url
-baseurl       : "" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
+url           : https://bjazmoore.github.io # site url
+baseurl       : "/blog" # apply repo name like "/myproject" if used under gh-pages branch, else (under master branch) just leave empty/blank
 cover         : "" # image uri like logo/cover image for site seo
 default_author: "Jane Doe" # other authors under _data/authors.yml
 
@@ -14,7 +14,7 @@ comments_enabled  : false # if enabled (set to true), please provide your disqus
 disqus_shortname  : ""
 postshare_enabled : false
 github_username   : "" # your github username
-github_repository : "https://github.com/kulacino/bajawa" # you could remove this, this is only for demo purposes
+github_repository : "https://bjazmoore.github.com" # you could remove this, this is only for demo purposes
 
 # Build settings
 permalink   : /:year/:month/:title/
