@@ -1,0 +1,111 @@
+I"<main class="main-content-front">
+<section class="hero-wrapper">
+  <div class="hero-wrapper-container">
+    <div class="hero-img">
+    </div>
+    <div class="hero-text">
+      <h1 class="hero-title">Bajawa</h1>
+      <h2 class="hero-desc">A minimalist, simple, and clean Jekyll theme for blogger and writer.</h2>
+      <a class="button" href="http://localhost:4000/about">Read More</a>
+    </div>
+  </div>
+</section>
+
+<section class="recent-post-wrapper">
+  <div class="recent-post-container">
+    <h1 class="section-title">Recent Posts</h1>
+    <div class="post-entry-grid">
+      
+      <div class="entry-flex">
+        <header class="post-title">
+          <a href="http://localhost:4000/2020/09/layout-in-bajawa-jekyll-theme/">Layout in Bajawa Jekyll Theme</a>
+        </header>
+        <div class="post-meta">
+          <span>Posted at Sep 25</span>
+          by <span>Jane Doe</span>
+        </div>
+        <div class="post-excerpt">
+          <p>Let’s learn about layout in Jekyll. For a comprehensive documentation, you could visit <a href="https://jekyllrb.com/docs/layouts/">official jekyll docs</a>. If you’re lazy enough, then you could just read this article. <strong><em>lol</em></strong></p>
+
+        </div>
+      </div>
+      
+      <div class="entry-flex">
+        <header class="post-title">
+          <a href="http://localhost:4000/2020/09/image-manipulation-in-markdown/">Image Manipulation in Markdown</a>
+        </header>
+        <div class="post-meta">
+          <span>Posted at Sep 23</span>
+          by <span>Jane Doe</span>
+        </div>
+        <div class="post-excerpt">
+          <p>Image styling and manipulating in markdown is easy. But, some markdown parser have different approach to style an image. In this post, we will learn how to manipulate and style and image using <code class="language-plaintext highlighter-rouge">kramdown</code> parser, since <a href="https://bajawa.ayuwelirang.com">Bajawa jekyll theme</a> using <code class="language-plaintext highlighter-rouge">kramdown</code> as its parser.</p>
+
+        </div>
+      </div>
+      
+      <div class="entry-flex">
+        <header class="post-title">
+          <a href="http://localhost:4000/2020/09/markdown-bajawa-documentation/">Markdown Bajawa Documentation</a>
+        </header>
+        <div class="post-meta">
+          <span>Posted at Sep 23</span>
+          by <span>Jane Doe</span>
+        </div>
+        <div class="post-excerpt">
+          
+
+        </div>
+      </div>
+      
+      <div class="entry-flex">
+        <header class="post-title">
+          <a href="http://localhost:4000/2020/09/bajawa-jekyll-theme/">Bajawa Jekyll Theme</a>
+        </header>
+        <div class="post-meta">
+          <span>Posted at Sep 23</span>
+          by <span>Jane Doe</span>
+        </div>
+        <div class="post-excerpt">
+          <p>Bajawa is a simple and clean template for jekyll. It can be used as a starter too. For those who likes minimalist template with pastel color, this theme is suitable for you.</p>
+
+        </div>
+      </div>
+      
+      <div class="entry-flex">
+        <header class="post-title">
+          <a href="http://localhost:4000/2020/09/tajima-gutenberg-story/">Tajima by Miss Mitford</a>
+        </header>
+        <div class="post-meta">
+          <span>Posted at Sep 22</span>
+          by <span>Jane Doe</span>
+        </div>
+        <div class="post-excerpt">
+          <p>Once upon a time, a certain ronin, Tajima Shume by name, an able and well-read man, being on his travels to see the world, went up to Kiyoto by the Tokaido. [The road of the Eastern Sea, the famous highroad leading from Kiyoto to Yedo. The name is also used to indicate the provinces through which it runs.]</p>
+
+        </div>
+      </div>
+      
+      <div class="entry-flex">
+        <header class="post-title">
+          <a href="http://localhost:4000/2020/09/2BR02B-by-kurt-vonnegut/">2BR02B by Kurt Vonnegut Jr</a>
+        </header>
+        <div class="post-meta">
+          <span>Posted at Sep 21</span>
+          by <span>Jane Doe</span>
+        </div>
+        <div class="post-excerpt">
+          <p>Everything was perfectly swell. There were no prisons, no slums, no insane asylums, no cripples, no poverty, no wars. All diseases were conquered. So was old age. Death, barring accidents, was an adventure for volunteers. The population of the United States was stabilized at forty-million souls.</p>
+
+        </div>
+      </div>
+      
+    </div>
+    <div class="button-post">
+      <a class="button" href="http://localhost:4000/blog">More Posts</a>
+    </div>
+  </div>
+</section>
+
+</main>
+:ET

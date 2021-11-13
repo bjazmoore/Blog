@@ -1,0 +1,53 @@
+I"�<p>Image styling and manipulating in markdown is easy. But, some markdown parser have different approach to style an image. In this post, we will learn how to manipulate and style and image using <code class="language-plaintext highlighter-rouge">kramdown</code> parser, since <a href="https://bajawa.ayuwelirang.com">Bajawa jekyll theme</a> using <code class="language-plaintext highlighter-rouge">kramdown</code> as its parser.</p>
+
+<hr />
+
+<p><strong>NOTE:</strong></p>
+
+<p>This tutorial doesn’t require changing in CSS.</p>
+
+<hr />
+
+<h2 id="image-sizing">Image Sizing</h2>
+
+<p>To embed image in markdown language, here is the code:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![Bajawa Test Image](/assets/images/testimage.jpg)
+</code></pre></div></div>
+
+<p>Above code doesn’t change image resolution. The image size is <code class="language-plaintext highlighter-rouge">1920px x 1271px</code>. Maybe, it’s too big to be displayed as a post image. Resize it manually using photo editor is too troublesome (if you’re not lazy, then go ahead). The image sample is <a href="/assets/images/testimage.jpg"><strong>here</strong></a>.</p>
+
+<p>With <strong>kramdown</strong> parser, try below approach to resize image without changing the CSS:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![Bajawa Test Image](/assets/images/testimage.jpg){:height="auto" width="600px"}
+![Bajawa Test Image](/assets/images/testimage.jpg){:class="img-responsive"}
+![Bajawa Test Image](/assets/images/testimage.jpg){:height="50%" width="50%"}
+</code></pre></div></div>
+
+<p>This is the sample of <code class="language-plaintext highlighter-rouge">![Bajawa Test Image](/assets/images/testimage.jpg){:height="auto" width="600px"</code>:</p>
+
+<p><img src="/assets/images/testimage.jpg" alt="Bajawa Test Image" height="auto" width="600px" /></p>
+
+<p>How is it?</p>
+
+<h2 id="image-caption">Image Caption</h2>
+
+<p>Unfortunately, giving a caption into image in markdown language is unavailable right now. We’re trying to research that but the result is far from perfect.</p>
+
+<p>In that case, to give caption in the image, we could combine <code class="language-plaintext highlighter-rouge">figure</code> html tag with <code class="language-plaintext highlighter-rouge">img src</code> as an alternative. This is the <strong>example</strong>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;figure style="width: 600px" class="align-center"&gt;
+&lt;img src="http://localhost:4000/assets/images/testimage.jpg" alt=""&gt;
+  &lt;figcaption&gt;This is caption&lt;/figcaption&gt;
+&lt;/figure&gt;
+</code></pre></div></div>
+
+<p>And the result will be like this:</p>
+
+<figure style="width: 600px">
+<img src="http://localhost:4000/assets/images/testimage.jpg" alt="Test Image Caption" />
+  <figcaption>This is caption example. Image by <a href="https://unsplash.com/@billy_c?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Billy Cox</a> via <a href="https://unsplash.com/s/photos/pastel-photos?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></figcaption>
+</figure>
+
+<p>That’s it! Easy right?</p>
+:ET

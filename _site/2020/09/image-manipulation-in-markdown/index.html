@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html>
+  <head>
+  <meta charset="utf-8">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  
+  
+
+  <title>
+      Image Manipulation in Markdown | Bajawa
+  </title>
+
+  
+  
+
+  
+
+  <meta name="description" content="
+      A minimalist, simple, and clean Jekyll theme for blogger and writer.
+  ">
+  <meta name="keywords" content="Jekyll, theme, free, download, SEO, blog, web, minimalist, simple, clean, bajawa theme">
+
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+
+  
+  
+  
+
+  <!-- Social: Facebook / Open Graph -->
+
+  <meta property="og:type" content="article">
+  <meta property="article:author" content="">
+  <meta property="article:section" content="">
+  <meta property="article:tag" content="">
+  <meta property="article:published_time" content="2020-09-23 21:58:00 -0500">
+
+  <meta property="og:url" content="http://localhost:4000/2020/09/image-manipulation-in-markdown/">
+  <meta property="og:title" content="
+      Image Manipulation in Markdown | Bajawa
+  ">
+  <meta property="og:image" content="http://localhost:4000">
+  <meta property="og:description" content="
+      A minimalist, simple, and clean Jekyll theme for blogger and writer.
+  ">
+  <meta property="og:site_name" content="Bajawa | A minimalist, simple, and clean Jekyll theme for blogger and writer.">
+  <meta property="og:locale" content="en_US">
+
+  <!-- Social: Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:site" content="">
+  <meta name="twitter:title" content="
+      Image Manipulation in Markdown | Bajawa
+  ">
+  <meta name="twitter:description" content="
+      A minimalist, simple, and clean Jekyll theme for blogger and writer.
+  ">
+  <meta name="twitter:image:src" content="http://localhost:4000">
+
+  <!-- Social: Google+ / Schema.org  -->
+  <meta itemprop="name" content="
+      Image Manipulation in Markdown | Bajawa
+  ">
+  <meta itemprop="description" content="
+      A minimalist, simple, and clean Jekyll theme for blogger and writer.
+  ">
+  <meta itemprop="image" content="http://localhost:4000">
+
+  <!-- Canonical link tag -->
+  <link rel="canonical" href="http://localhost:4000/2020/09/image-manipulation-in-markdown/">
+  <link rel="alternate" type="application/rss+xml" title="Bajawa" href="http://localhost:4000/feed.xml">
+
+  <!-- rel prev and next -->
+  
+  
+
+  <link rel="stylesheet" href="http://localhost:4000/assets/css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="apple-touch-icon" sizes="180x180" href="http://localhost:4000/assets/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="http://localhost:4000/assets/favicon-32x32.png" >
+  <link rel="icon" type="image/png" sizes="16x16"href="http://localhost:4000/assets/favicon-16x16.png" >
+  <link rel="manifest" href="http://localhost:4000/assets/site.webmanifest" >
+</head>
+
+  <body>
+    <div class="wrapper-all">
+      <header class="site-header">
+  <nav class="navbar">
+  <div class="logo-container">
+    <h1 class="logo-left"><a href="http://localhost:4000/">Bajawa</a></h1>
+  </div>
+  <div class="nav-container">
+      <ul class="navbar-right" id="myFunction">
+        <li><a href="http://localhost:4000/about"><i class="fa fa-user"></i>&nbsp; About</a></li>
+        <li><a href="http://localhost:4000/blog"><i class="fa fa-pencil"></i>&nbsp; Blog</a></li>
+        <li><a href="http://localhost:4000/search"><i class="fa fa-search"></i>&nbsp; Search</a></li>
+        <li>
+          <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a></li>
+      </ul>
+  </div>
+</nav>
+
+</header>
+
+      <article class="post-container">
+  <div class="post-wrapper">
+    <header class="post-header">
+      <h1 class="post-title">Image Manipulation in Markdown</h1>
+      <p class="post-meta">
+        <time datetime="2020-09-23T21:58:00-05:00">Sep 23, 2020</time>
+         &middot;
+        <span>Jane Doe</span>
+        
+      </p>
+    </header>
+    <div class="post-content">
+      <p>Image styling and manipulating in markdown is easy. But, some markdown parser have different approach to style an image. In this post, we will learn how to manipulate and style and image using <code class="language-plaintext highlighter-rouge">kramdown</code> parser, since <a href="https://bajawa.ayuwelirang.com">Bajawa jekyll theme</a> using <code class="language-plaintext highlighter-rouge">kramdown</code> as its parser.</p>
+
+<hr />
+<p><strong>NOTE:</strong></p>
+
+<p>This tutorial doesn’t require changing in CSS.</p>
+
+<hr />
+
+<h2 id="image-sizing">Image Sizing</h2>
+
+<p>To embed image in markdown language, here is the code:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![Bajawa Test Image](/assets/images/testimage.jpg)
+</code></pre></div></div>
+
+<p>Above code doesn’t change image resolution. The image size is <code class="language-plaintext highlighter-rouge">1920px x 1271px</code>. Maybe, it’s too big to be displayed as a post image. Resize it manually using photo editor is too troublesome (if you’re not lazy, then go ahead). The image sample is <a href="/assets/images/testimage.jpg"><strong>here</strong></a>.</p>
+
+<p>With <strong>kramdown</strong> parser, try below approach to resize image without changing the CSS:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>![Bajawa Test Image](/assets/images/testimage.jpg){:height="auto" width="600px"}
+![Bajawa Test Image](/assets/images/testimage.jpg){:class="img-responsive"}
+![Bajawa Test Image](/assets/images/testimage.jpg){:height="50%" width="50%"}
+</code></pre></div></div>
+
+<p>This is the sample of <code class="language-plaintext highlighter-rouge">![Bajawa Test Image](/assets/images/testimage.jpg){:height="auto" width="600px"</code>:</p>
+
+<p><img src="/assets/images/testimage.jpg" alt="Bajawa Test Image" height="auto" width="600px" /></p>
+
+<p>How is it?</p>
+
+<h2 id="image-caption">Image Caption</h2>
+
+<p>Unfortunately, giving a caption into image in markdown language is unavailable right now. We’re trying to research that but the result is far from perfect.</p>
+
+<p>In that case, to give caption in the image, we could combine <code class="language-plaintext highlighter-rouge">figure</code> html tag with <code class="language-plaintext highlighter-rouge">img src</code> as an alternative. This is the <strong>example</strong>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>&lt;figure style="width: 600px" class="align-center"&gt;
+&lt;img src="http://localhost:4000/assets/images/testimage.jpg" alt=""&gt;
+  &lt;figcaption&gt;This is caption&lt;/figcaption&gt;
+&lt;/figure&gt;
+</code></pre></div></div>
+
+<p>And the result will be like this:</p>
+
+<figure style="width: 600px">
+<img src="http://localhost:4000/assets/images/testimage.jpg" alt="Test Image Caption" />
+  <figcaption>This is caption example. Image by <a href="https://unsplash.com/@billy_c?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Billy Cox</a> via <a href="https://unsplash.com/s/photos/pastel-photos?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></figcaption>
+</figure>
+
+<p>That’s it! Easy right?</p>
+
+    </div>
+      
+      
+  </div>
+</article>
+
+      <footer class="site-footer">
+  <div class="footer-container">
+    <span class="copyright">2021 &copy; Jane Doe</span><br>
+    <span class="credits">Built with <i class="fa fa-heart" aria-hidden="true"></i> using <a href="https://jekyllrb.com/">Jekyll</a> and
+     <a href="https://github.com/kulacino/bajawa">Bajawa theme</a></span>
+  </div>
+</footer>
+
+    </div>
+      <script src="http://localhost:4000/assets/js/menures.js"></script>
+
+  </body>
+</html>

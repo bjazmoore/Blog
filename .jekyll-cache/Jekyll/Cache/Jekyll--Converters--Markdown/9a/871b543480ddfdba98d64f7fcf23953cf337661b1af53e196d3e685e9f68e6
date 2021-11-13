@@ -1,0 +1,15 @@
+I"�<p>Let’s learn about layout in Jekyll. For a comprehensive documentation, you could visit <a href="https://jekyllrb.com/docs/layouts/">official jekyll docs</a>. If you’re lazy enough, then you could just read this article. <strong><em>lol</em></strong></p>
+
+<p>In jekyll-made site, we don’t need to repeat the code in every page. We could call the layout via front matter.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>---
+layout: post
+title: 'Layout in Bajawa Jekyll Theme'
+date: '2020-09-25T12:51:00.003+07:00'
+author: Jane Doe
+tags: [bajawa, jekyll, sample]
+---
+</code></pre></div></div>
+
+<p>Above setting will call layout called <code class="language-plaintext highlighter-rouge">post.html</code> from <code class="language-plaintext highlighter-rouge">_layouts/</code> directory. You can create the layout based on your needs and styles.</p>
+:ET

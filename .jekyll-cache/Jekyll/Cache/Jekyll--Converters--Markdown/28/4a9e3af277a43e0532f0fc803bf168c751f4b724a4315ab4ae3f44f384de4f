@@ -1,0 +1,2 @@
+I"²<p>Image styling and manipulating in markdown is easy. But, some markdown parser have different approach to style an image. In this post, we will learn how to manipulate and style and image using <code class="language-plaintext highlighter-rouge">kramdown</code> parser, since <a href="https://bajawa.ayuwelirang.com">Bajawa jekyll theme</a> using <code class="language-plaintext highlighter-rouge">kramdown</code> as its parser.</p>
+:ET

@@ -1,0 +1,53 @@
+I"R<!-- post list -->
+<div class="blogpost-title">
+
+<li><a href="/2020/09/layout-in-bajawa-jekyll-theme/"><h3>Layout in Bajawa Jekyll Theme</h3></a></li>
+<span>Posted at Sep 25</span>
+<p>Let’s learn about layout in Jekyll. For a comprehensive documentation, you could visit <a href="https://jekyllrb.com/docs/layouts/">official jekyll docs</a>. If you’re lazy enough, then you could just read this article. <strong><em>lol</em></strong></p>
+
+
+<li><a href="/2020/09/image-manipulation-in-markdown/"><h3>Image Manipulation in Markdown</h3></a></li>
+<span>Posted at Sep 23</span>
+<p>Image styling and manipulating in markdown is easy. But, some markdown parser have different approach to style an image. In this post, we will learn how to manipulate and style and image using <code class="language-plaintext highlighter-rouge">kramdown</code> parser, since <a href="https://bajawa.ayuwelirang.com">Bajawa jekyll theme</a> using <code class="language-plaintext highlighter-rouge">kramdown</code> as its parser.</p>
+
+
+<li><a href="/2020/09/markdown-bajawa-documentation/"><h3>Markdown Bajawa Documentation</h3></a></li>
+<span>Posted at Sep 23</span>
+
+
+
+<li><a href="/2020/09/bajawa-jekyll-theme/"><h3>Bajawa Jekyll Theme</h3></a></li>
+<span>Posted at Sep 23</span>
+<p>Bajawa is a simple and clean template for jekyll. It can be used as a starter too. For those who likes minimalist template with pastel color, this theme is suitable for you.</p>
+
+
+<li><a href="/2020/09/tajima-gutenberg-story/"><h3>Tajima by Miss Mitford</h3></a></li>
+<span>Posted at Sep 22</span>
+<p>Once upon a time, a certain ronin, Tajima Shume by name, an able and well-read man, being on his travels to see the world, went up to Kiyoto by the Tokaido. [The road of the Eastern Sea, the famous highroad leading from Kiyoto to Yedo. The name is also used to indicate the provinces through which it runs.]</p>
+
+
+</div>
+
+<!-- pagination -->
+
+<div class="pagination">
+  
+    <span>&laquo; Prev</span>
+  
+
+  
+    
+      <span class="pagenum">1</span>
+    
+  
+    
+      <a href="/blog/page2/">2</a>
+    
+  
+
+  
+    <a href="/blog/page2/">Next &raquo;</a>
+  
+</div>
+
+:ET

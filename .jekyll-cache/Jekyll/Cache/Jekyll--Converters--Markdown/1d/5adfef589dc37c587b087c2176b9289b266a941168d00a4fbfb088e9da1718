@@ -1,0 +1,98 @@
+I"�<h1 id="bajawa-jekyll-theme"><a href="https://kulacino.github.io/bajawa">Bajawa Jekyll Theme</a></h1>
+<p><a href="https://raw.githubusercontent.com/kulacino/bajawa/master/LICENSE"><img src="https://img.shields.io/badge/license-MIT-lightgrey.svg?style=flat-square" alt="LICENSE" /></a>
+<a href="https://jekyllrb.com/"><img src="https://img.shields.io/badge/jekyll-%3E%3D%203.6-blue.svg?style=flat-square" alt="Jekyll" /></a>
+<a href="https://paypal.me/ayuwindd"><img src="https://img.shields.io/badge/PayPal-tip%20me-green.svg?style=flat-square&amp;logo=paypal" alt="Treat me a coffee" /></a></p>
+
+<p>Welcome to Bajawa! A simple and clean Jekyll theme with a little touch of pastel colors! In this readme, you’ll find the documentations you need to be able to set up this theme into jekyll.</p>
+
+<p>Bajawa could be used as a starter also. Customize and tweak it with your own style.</p>
+
+<p><strong>Bajawa theme information:</strong></p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Author: Cynthia Ayu W.
+Repository: https://github.com/kulacino/bajawa
+Version: 0.1.0
+Gem: 0.1.0
+</code></pre></div></div>
+
+<p><a href="https://kulacino.github.io/bajawa"><img src="../ss01.png" alt="Bajawa preview" title="site screenshot" /></a></p>
+
+<p><strong>If you like and enjoy this theme, please consider <a href="https://ko-fi.com/kulacino">treating me a coffee</a> so I could develop and maintain it regularly.</strong></p>
+
+<h2 id="table-of-contents">Table of Contents</h2>
+
+<ol>
+  <li><a href="#installation">Installation</a>
+    <ol>
+      <li><a href="#ruby-gem-method">Ruby Gem Method</a></li>
+      <li><a href="#github-pages-method">GitHub Pages Method</a>
+        <ol>
+          <li><a href="#exclude-something">Exclude Something</a></li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+  <li><a href="#readme">Readme</a></li>
+  <li><a href="#development">Development</a></li>
+  <li><a href="#attribution">Attribution</a></li>
+  <li><a href="#license">License</a></li>
+</ol>
+
+<h2 id="installation">Installation</h2>
+
+<h3 id="ruby-gem-method">Ruby Gem Method</h3>
+
+<p>Add this line to your Jekyll site’s <code class="language-plaintext highlighter-rouge">Gemfile</code>:</p>
+
+<div class="language-ruby highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">gem</span> <span class="s2">"bajawa"</span>
+</code></pre></div></div>
+
+<p>And add this line to your Jekyll site’s <code class="language-plaintext highlighter-rouge">_config.yml</code>:</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">theme</span><span class="pi">:</span> <span class="s">bajawa</span>
+</code></pre></div></div>
+
+<p>And then execute:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ bundle
+</code></pre></div></div>
+
+<p>Or install it yourself as:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ gem install bajawa
+</code></pre></div></div>
+
+<h3 id="github-pages-method">Github Pages Method</h3>
+
+<p>to be added</p>
+
+<h4 id="exclude-something">Exclude Something</h4>
+
+<p>to be added</p>
+
+<h2 id="readme">Readme</h2>
+
+<p>For a full documentation of this theme, please consider visit the official readme <a href="https://github.com/kulacino/bajawa/blob/master/README.md"><strong>here</strong></a>.</p>
+
+<h2 id="development">Development</h2>
+
+<p>To set up your environment to develop this theme, run <code class="language-plaintext highlighter-rouge">bundle install</code>.</p>
+
+<p>Your theme is setup just like a normal Jekyll site! To test your theme, run <code class="language-plaintext highlighter-rouge">bundle exec jekyll serve</code> and open your browser at <code class="language-plaintext highlighter-rouge">http://localhost:4000</code>. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme’s contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal.</p>
+
+<p>When your theme is released, only the files in <code class="language-plaintext highlighter-rouge">_layouts</code>, <code class="language-plaintext highlighter-rouge">_includes</code>, <code class="language-plaintext highlighter-rouge">_sass</code> and <code class="language-plaintext highlighter-rouge">assets</code> tracked with Git will be bundled.
+To add a custom directory to your theme-gem, please edit the regexp in <code class="language-plaintext highlighter-rouge">bajawa.gemspec</code> accordingly.</p>
+
+<h2 id="attribution">Attribution</h2>
+
+<p>Below is attributions and credits to external sources, such as: <code class="language-plaintext highlighter-rouge">image</code>, <code class="language-plaintext highlighter-rouge">code</code>, <code class="language-plaintext highlighter-rouge">script</code>, etc.</p>
+<ul>
+  <li><a href="https://github.com/kulacino/bajawa/blob/master/assets/images/heroimg.jpg">Hero Image</a> captured by <a href="https://unsplash.com/@sixteenmilesout?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Carolyn V</a> downloaded via <a href="https://unsplash.com/?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></li>
+  <li><a href="https://github.com/kulacino/bajawa/blob/master/assets/images/test.jpg">Test Image</a> captured by <a href="https://unsplash.com/@billy_c?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Billy Cox</a> downloaded via <a href="https://unsplash.com/s/photos/pastel-photos?utm_source=unsplash&amp;utm_medium=referral&amp;utm_content=creditCopyText">Unsplash</a></li>
+  <li>Search Page using <a href="https://lunrjs.com/">lunr.js</a></li>
+</ul>
+
+<h2 id="license">License</h2>
+
+<p>The theme is available as open source under the terms of the <a href="https://opensource.org/licenses/MIT">MIT License</a>.</p>
+:ET
