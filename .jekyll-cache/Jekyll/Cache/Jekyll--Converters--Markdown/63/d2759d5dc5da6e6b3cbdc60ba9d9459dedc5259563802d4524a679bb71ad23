@@ -1,4 +1,4 @@
-I"˗<script src="/assets/js/lunr.js"></script>
+I"z�<script src="/assets/js/lunr.js"></script>
 
 <script>
 
@@ -6,7 +6,7 @@ var documents = [{
     "id": 0,
     "url": "http://localhost:4000/about/",
     "title": "About",
-    "body": "Bajawa Jekyll Theme Welcome to Bajawa! A simple and clean Jekyll theme with a little touch of pastel colors! In this readme, you’ll find the documentations you need to be able to set up this theme into jekyll. Bajawa could be used as a starter also. Customize and tweak it with your own style. Bajawa theme information: Author: Cynthia Ayu W. Repository: https://github. com/kulacino/bajawaVersion: 0. 1. 0Gem: 0. 1. 0 If you like and enjoy this theme, please consider treating me a coffee so I could develop and maintain it regularly. Table of Contents:  Installation     Ruby Gem Method   GitHub Pages Method         Exclude Something           Readme Development Attribution LicenseInstallation: Ruby Gem Method: Add this line to your Jekyll site’s Gemfile: gem  bajawa And add this line to your Jekyll site’s _config. yml: theme: bajawaAnd then execute: $ bundleOr install it yourself as: $ gem install bajawaGithub Pages Method: to be added Exclude Something: to be added Readme: For a full documentation of this theme, please consider visit the official readme here. Development: To set up your environment to develop this theme, run bundle install. Your theme is setup just like a normal Jekyll site! To test your theme, run bundle exec jekyll serve and open your browser at http://localhost:4000. This starts a Jekyll server using your theme. Add pages, documents, data, etc. like normal to test your theme’s contents. As you make modifications to your theme and to your content, your site will regenerate and you should see the changes in the browser after a refresh, just like normal. When your theme is released, only the files in _layouts, _includes, _sass and assets tracked with Git will be bundled. To add a custom directory to your theme-gem, please edit the regexp in bajawa. gemspec accordingly. Attribution: Below is attributions and credits to external sources, such as: image, code, script, etc.  Hero Image captured by Carolyn V downloaded via Unsplash Test Image captured by Billy Cox downloaded via Unsplash Search Page using lunr. jsLicense: The theme is available as open source under the terms of the MIT License. "
+    "body": "Welcome to Bajawa! A simple and clean Jekyll theme with a little touch of pastel colors! In this readme, you’ll find the documentations you need to be able to set up this theme into jekyll. Bajawa could be used as a starter also. Customize and tweak it with your own style. "
     }, {
     "id": 1,
     "url": "http://localhost:4000/blog/",
