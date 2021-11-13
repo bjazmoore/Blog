@@ -2,5 +2,5 @@
 # Main SASS search from _sass directory
 ---
 
-$baseurl: "{{ site.url }}";
+$url: "{{ site.url }}";
 @import "bajawa";
